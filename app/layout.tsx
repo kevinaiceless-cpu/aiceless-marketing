@@ -43,7 +43,7 @@ export default function RootLayout({
                   About
                 </Link>
                 <a 
-                  href="https://my-alert-app.vercel.app/login" 
+                  href="https://my-alert-app.vercel.app/signup" 
                   className="px-4 py-2 bg-aiceless-blue text-white rounded-lg hover:bg-opacity-90 transition font-medium"
                 >
                   Get Started Free
@@ -53,7 +53,7 @@ export default function RootLayout({
               {/* Mobile Menu Button */}
               <div className="md:hidden">
                 <a 
-                  href="https://my-alert-app.vercel.app/login" 
+                  href="https://my-alert-app.vercel.app/signup" 
                   className="px-4 py-2 bg-aiceless-blue text-white rounded-lg text-sm font-medium"
                 >
                   Start Free
@@ -99,7 +99,7 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <a href="https://my-alert-app.vercel.app/login" className="text-gray-600 hover:text-aiceless-blue">
+                    <a href="https://my-alert-app.vercel.app/signup" className="text-gray-600 hover:text-aiceless-blue">
                       Sign Up
                     </a>
                   </li>

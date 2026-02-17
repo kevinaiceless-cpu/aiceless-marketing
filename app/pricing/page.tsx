@@ -6,10 +6,10 @@ export default function PricingPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Simple, Transparent Pricing</h1>
           <p className="text-xl text-gray-600 mb-4">
-            Start with a 7-day free trial. No credit card required.
+            Start with a 7-day free trial.
           </p>
           <p className="text-lg text-gray-500">
-            Cancel anytime. No hidden fees.
+            No hidden fees. Simple plans that grow with your business.
           </p>
         </div>
 
@@ -209,14 +209,16 @@ export default function PricingPage() {
             <div className="bg-white rounded-lg p-6 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-2">Can I cancel anytime?</h3>
               <p className="text-gray-600">
-                Absolutely. Cancel with one click from your dashboard. No questions asked, no cancellation fees.
+                Yes. You can cancel your subscription at any time from your account settings. 
+                Your access continues through the end of your current billing period.
               </p>
             </div>
 
             <div className="bg-white rounded-lg p-6 border border-gray-200">
-              <h3 className="font-bold text-gray-900 mb-2">Do I need a credit card for the free trial?</h3>
+              <h3 className="font-bold text-gray-900 mb-2">How does the free trial work?</h3>
               <p className="text-gray-600">
-                Nope! Start your 7-day trial without entering any payment information.
+                Sign up and get full access to Aiceless for 7 days. At the end of your trial, 
+                choose a plan to continue. If you don't select one, your account will simply pause—no charges, no hassle.
               </p>
             </div>
 

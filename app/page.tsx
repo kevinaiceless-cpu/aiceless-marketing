@@ -30,7 +30,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="text-sm text-gray-500 mt-4">
-              No credit card required • Cancel anytime
+              Free 7-day trial • No commitment
             </p>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default function HomePage() {
             Start Your Free 7-Day Trial
           </a>
           <p className="text-white text-opacity-75 mt-4">
-            No credit card required • Cancel anytime
+            Free 7-day trial • No commitment
           </p>
         </div>
       </section>
