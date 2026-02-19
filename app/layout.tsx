@@ -43,6 +43,12 @@ export default function RootLayout({
                   About
                 </Link>
                 <a 
+                  href="https://my-alert-app.vercel.app/login" 
+                  className="text-gray-600 hover:text-aiceless-blue transition font-medium"
+                >
+                  Log In
+                </a>
+                <a 
                   href="https://my-alert-app.vercel.app/signup" 
                   className="px-4 py-2 bg-aiceless-blue text-white rounded-lg hover:bg-opacity-90 transition font-medium"
                 >
@@ -51,7 +57,13 @@ export default function RootLayout({
               </div>
 
               {/* Mobile Menu Button */}
-              <div className="md:hidden">
+              <div className="md:hidden flex items-center gap-3">
+                <a 
+                  href="https://my-alert-app.vercel.app/login" 
+                  className="text-sm text-gray-600 hover:text-aiceless-blue font-medium"
+                >
+                  Log In
+                </a>
                 <a 
                   href="https://my-alert-app.vercel.app/signup" 
                   className="px-4 py-2 bg-aiceless-blue text-white rounded-lg text-sm font-medium"
