@@ -90,7 +90,7 @@ export default function AboutPage() {
               Have questions? Want to share your story? We'd love to hear from you.
             </p>
             <p className="text-gray-700">
-              <strong>Email:</strong> <a href="mailto:Kevin.Aiceless@gmail.com" className="text-aiceless-blue hover:underline">Kevin.Aiceless@gmail.com</a>
+              <strong>Email:</strong> <a href="mailto:Kevin@Aiceless.com" className="text-aiceless-blue hover:underline">Kevin@Aiceless.com</a>
             </p>
           </div>
         </div>

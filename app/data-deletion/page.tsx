@@ -44,8 +44,8 @@ export default function DataDeletionPage() {
                 <h3 className="font-bold text-gray-900 mb-3 text-lg">Method 2: Via Email</h3>
                 <p className="text-gray-700 mb-3">Send an email to:</p>
                 <p className="text-lg font-semibold text-[#1B5A8E] mb-3">
-                  <a href="mailto:Kevin.Aiceless@gmail.com" className="hover:underline">
-                    Kevin.Aiceless@gmail.com
+                  <a href="mailto:Kevin@Aiceless.com" className="hover:underline">
+                    Kevin@Aiceless.com
                   </a>
                 </p>
                 <p className="text-gray-700 mb-3">Include in your email:</p>
@@ -150,7 +150,7 @@ export default function DataDeletionPage() {
               Before deleting your account, you can request a copy of your data:
             </p>
             <ol className="list-decimal list-inside space-y-2 text-gray-700 ml-4">
-              <li>Email <a href="mailto:Kevin.Aiceless@gmail.com" className="text-[#1B5A8E] hover:underline font-medium">Kevin.Aiceless@gmail.com</a></li>
+              <li>Email <a href="mailto:Kevin@Aiceless.com" className="text-[#1B5A8E] hover:underline font-medium">Kevin@Aiceless.com</a></li>
               <li>Request: "Data Export"</li>
               <li>We'll send you a JSON file with all your account data within 7 business days</li>
             </ol>
@@ -164,8 +164,8 @@ export default function DataDeletionPage() {
             <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
               <p className="text-gray-700 mb-2">
                 <strong>Email:</strong>{' '}
-                <a href="mailto:Kevin.Aiceless@gmail.com" className="text-[#1B5A8E] hover:underline">
-                  Kevin.Aiceless@gmail.com
+                <a href="mailto:Kevin@Aiceless.com" className="text-[#1B5A8E] hover:underline">
+                  Kevin@Aiceless.com
                 </a>
               </p>
               <p className="text-gray-700">

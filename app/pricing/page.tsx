@@ -185,7 +185,7 @@ export default function PricingPage() {
             </ul>
 
             <a 
-              href="mailto:Kevin.Aiceless@gmail.com?subject=Enterprise%20Inquiry" 
+              href="mailto:Kevin@Aiceless.com?subject=Enterprise%20Inquiry" 
               className="block w-full py-3 px-4 bg-gray-100 text-gray-900 text-center rounded-lg hover:bg-gray-200 transition font-semibold"
             >
               Contact Us
@@ -245,7 +245,7 @@ export default function PricingPage() {
             Still have questions?
           </h2>
           <p className="text-gray-600 mb-6">
-            Email us at <a href="mailto:Kevin.Aiceless@gmail.com" className="text-aiceless-blue hover:underline">Kevin.Aiceless@gmail.com</a>
+            Email us at <a href="mailto:Kevin@Aiceless.com" className="text-aiceless-blue hover:underline">Kevin@Aiceless.com</a>
           </p>
           <a 
             href="https://my-alert-app.vercel.app/signup" 

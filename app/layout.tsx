@@ -156,8 +156,8 @@ export default function RootLayout({
             <div className="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
               <p>© {new Date().getFullYear()} Aiceless. All rights reserved.</p>
               <p className="mt-2">
-                <a href="mailto:Kevin.Aiceless@gmail.com" className="text-aiceless-blue hover:underline">
-                  Kevin.Aiceless@gmail.com
+                <a href="mailto:Kevin@Aiceless.com" className="text-aiceless-blue hover:underline">
+                  Kevin@Aiceless.com
                 </a>
               </p>
             </div>
