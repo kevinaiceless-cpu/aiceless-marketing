@@ -21,7 +21,7 @@ export default function PricingPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Essential</h3>
               <p className="text-gray-600 mb-4">Perfect for getting started</p>
               <div className="flex items-baseline">
-                <span className="text-5xl font-bold text-gray-900">$19</span>
+                <span className="text-5xl font-bold text-gray-900">$20</span>
                 <span className="text-gray-600 ml-2">/month</span>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function PricingPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Professional</h3>
               <p className="text-gray-600 mb-4">Everything you need to grow</p>
               <div className="flex items-baseline">
-                <span className="text-5xl font-bold text-aiceless-blue">$39</span>
+                <span className="text-5xl font-bold text-aiceless-blue">$30</span>
                 <span className="text-gray-600 ml-2">/month</span>
               </div>
             </div>
