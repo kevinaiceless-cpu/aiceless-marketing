@@ -33,8 +33,8 @@ export default function RootLayout({
 
               {/* Navigation Links */}
               <div className="hidden md:flex items-center space-x-8">
-                <Link href="/mission" className="text-gray-600 hover:text-aiceless-blue transition">
-                  Mission
+                <Link href="/product" className="text-gray-600 hover:text-aiceless-blue transition">
+                  Product
                 </Link>
                 <Link href="/pricing" className="text-gray-600 hover:text-aiceless-blue transition">
                   Pricing
@@ -106,6 +106,11 @@ export default function RootLayout({
                 <h3 className="font-semibold text-gray-900 mb-3">Product</h3>
                 <ul className="space-y-2 text-sm">
                   <li>
+                    <Link href="/product" className="text-gray-600 hover:text-aiceless-blue">
+                      How It Works
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/pricing" className="text-gray-600 hover:text-aiceless-blue">
                       Pricing
                     </Link>
@@ -122,11 +127,6 @@ export default function RootLayout({
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Company</h3>
                 <ul className="space-y-2 text-sm">
-                  <li>
-                    <Link href="/mission" className="text-gray-600 hover:text-aiceless-blue">
-                      Mission
-                    </Link>
-                  </li>
                   <li>
                     <Link href="/about" className="text-gray-600 hover:text-aiceless-blue">
                       About
