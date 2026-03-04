@@ -43,13 +43,13 @@ export default function RootLayout({
                   About
                 </Link>
                 <a 
-                  href="https://my-alert-app.vercel.app/login" 
+                  href="https://app.aiceless.com/login" 
                   className="text-gray-600 hover:text-aiceless-blue transition font-medium"
                 >
                   Log In
                 </a>
                 <a 
-                  href="https://my-alert-app.vercel.app/signup" 
+                  href="https://app.aiceless.com/signup" 
                   className="px-4 py-2 bg-aiceless-blue text-white rounded-lg hover:bg-opacity-90 transition font-medium"
                 >
                   Get Started Free
@@ -59,13 +59,13 @@ export default function RootLayout({
               {/* Mobile Menu Button */}
               <div className="md:hidden flex items-center gap-3">
                 <a 
-                  href="https://my-alert-app.vercel.app/login" 
+                  href="https://app.aiceless.com/login" 
                   className="text-sm text-gray-600 hover:text-aiceless-blue font-medium"
                 >
                   Log In
                 </a>
                 <a 
-                  href="https://my-alert-app.vercel.app/signup" 
+                  href="https://app.aiceless.com/signup" 
                   className="px-4 py-2 bg-aiceless-blue text-white rounded-lg text-sm font-medium"
                 >
                   Start Free
@@ -116,7 +116,7 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <a href="https://my-alert-app.vercel.app/signup" className="text-gray-600 hover:text-aiceless-blue">
+                    <a href="https://app.aiceless.com/signup" className="text-gray-600 hover:text-aiceless-blue">
                       Sign Up
                     </a>
                   </li>
@@ -156,8 +156,8 @@ export default function RootLayout({
             <div className="border-t border-gray-200 mt-8 pt-8 text-center text-sm text-gray-600">
               <p>© {new Date().getFullYear()} Aiceless. All rights reserved.</p>
               <p className="mt-2">
-                <a href="mailto:Kevin@Aiceless.com" className="text-aiceless-blue hover:underline">
-                  Kevin@Aiceless.com
+                <a href="mailto:Support@Aiceless.com" className="text-aiceless-blue hover:underline">
+                  Support@Aiceless.com
                 </a>
               </p>
             </div>

@@ -101,7 +101,7 @@ export default function MissionPage() {
             Ready to simplify your business alerts?
           </h2>
           <a 
-            href="https://my-alert-app.vercel.app/signup" 
+            href="https://app.aiceless.com/signup" 
             className="inline-block px-8 py-4 bg-aiceless-blue text-white rounded-lg hover:bg-opacity-90 transition font-semibold shadow-lg"
           >
             Start Your Free 7-Day Trial

@@ -112,8 +112,8 @@ export default function AboutPage() {
             </p>
             <p className="text-gray-700">
               <strong>Email:</strong>{' '}
-              <a href="mailto:Kevin@Aiceless.com" className="text-aiceless-blue hover:underline font-medium">
-                Kevin@Aiceless.com
+              <a href="mailto:contactus@Aiceless.com" className="text-aiceless-blue hover:underline font-medium">
+                contactus@Aiceless.com
               </a>
             </p>
           </div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-gray-500 mb-6">7-day free trial. No credit card. Cancel anytime.</p>
           <a 
-            href="https://my-alert-app.vercel.app/signup" 
+            href="https://app.aiceless.com/signup" 
             className="inline-block px-8 py-4 bg-aiceless-blue text-white rounded-lg hover:bg-opacity-90 transition font-semibold shadow-lg"
           >
             Start Your Free Trial

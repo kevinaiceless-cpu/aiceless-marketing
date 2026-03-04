@@ -115,7 +115,7 @@ export default function PrivacyPage() {
               If you have any questions about this privacy policy or our data practices:
             </p>
             <p className="text-gray-700">
-              <strong>Email:</strong> <a href="mailto:Kevin.Aiceless@gmail.com" className="text-aiceless-blue hover:underline">Kevin.Aiceless@gmail.com</a>
+              <strong>Email:</strong> <a href="mailto:Support@Aiceless.com" className="text-aiceless-blue hover:underline">Support@Aiceless.com</a>
             </p>
           </section>
 

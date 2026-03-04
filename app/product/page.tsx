@@ -162,7 +162,7 @@ export default function ProductPage() {
                 Type one message. Pick your channels. Hit send. That&apos;s it — your customers on Facebook, Instagram, Google, and your website all see the same alert, instantly.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a href="https://my-alert-app.vercel.app/signup" className="px-6 py-3 bg-[#1B5A8E] text-white rounded-xl hover:bg-[#164a75] transition font-semibold text-center shadow-md">
+                <a href="https://app.aiceless.com/signup" className="px-6 py-3 bg-[#1B5A8E] text-white rounded-xl hover:bg-[#164a75] transition font-semibold text-center shadow-md">
                   Try It Free for 7 Days
                 </a>
                 <a href="/pricing" className="px-6 py-3 bg-white text-[#1B5A8E] border-2 border-[#1B5A8E] rounded-xl hover:bg-gray-50 transition font-semibold text-center">
@@ -397,7 +397,7 @@ export default function ProductPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Try it free for 7 days</h2>
           <p className="text-lg text-white/80 mb-8">No credit card required. Set up in under 5 minutes.</p>
-          <a href="https://my-alert-app.vercel.app/signup" className="inline-block px-8 py-4 bg-white text-[#1B5A8E] rounded-xl hover:bg-gray-100 transition font-bold text-lg shadow-lg">
+          <a href="https://app.aiceless.com/signup" className="inline-block px-8 py-4 bg-white text-[#1B5A8E] rounded-xl hover:bg-gray-100 transition font-bold text-lg shadow-lg">
             Start Your Free Trial
           </a>
           <p className="text-sm text-white/50 mt-4">Plans start at $20/month after trial</p>

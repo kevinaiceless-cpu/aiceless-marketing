@@ -116,7 +116,7 @@ export default function TermsPage() {
               For questions about these terms, please contact us:
             </p>
             <p className="text-gray-700">
-              <strong>Email:</strong> <a href="mailto:Kevin@Aiceless.com" className="text-aiceless-blue hover:underline">Kevin@Aiceless.com</a>
+              <strong>Email:</strong> <a href="mailto:Support@Aiceless.com" className="text-aiceless-blue hover:underline">Support@Aiceless.com</a>
             </p>
           </section>
 

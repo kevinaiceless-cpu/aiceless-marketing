@@ -17,7 +17,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://my-alert-app.vercel.app/signup" 
+                href="https://app.aiceless.com/signup" 
                 className="px-8 py-4 bg-aiceless-blue text-white rounded-lg hover:bg-opacity-90 transition font-semibold text-lg shadow-lg"
               >
                 Start 7-Day Free Trial
@@ -212,7 +212,7 @@ export default function HomePage() {
             Join small businesses who are already saving time and reaching more customers.
           </p>
           <a 
-            href="https://my-alert-app.vercel.app/signup" 
+            href="https://app.aiceless.com/signup" 
             className="inline-block px-8 py-4 bg-white text-aiceless-blue rounded-lg hover:bg-gray-100 transition font-semibold text-lg shadow-lg"
           >
             Start Your Free 7-Day Trial
