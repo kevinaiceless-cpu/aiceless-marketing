@@ -107,7 +107,7 @@ function AnimatedDemo() {
         {/* Channels */}
         <div>
           <label className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2 block">Channels</label>
-          <div className="grid grid-cols-4 gap-2">
+          <div className="grid grid-cols-2 gap-2">
             {[
               { key: 'facebook', label: 'Facebook', color: '#1877F2' },
               { key: 'instagram', label: 'Instagram', color: '#E1306C' },
@@ -211,7 +211,7 @@ export default function ProductPage() {
                 <p className="text-gray-600 leading-relaxed">
                   Tap the platforms you want to post to. Facebook, Instagram, Google Business Profile, your website — any combination.
                 </p>
-                <div className="mt-4 flex gap-2">
+                <div className="mt-4 flex flex-wrap gap-2">
                   {['Facebook', 'Instagram', 'Google', 'Website'].map(p => (
                     <span key={p} className="px-2.5 py-1 bg-[#1B5A8E] text-white rounded-lg text-xs font-semibold shadow-sm">{p}</span>
                   ))}
