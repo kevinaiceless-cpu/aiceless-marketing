@@ -20,7 +20,7 @@ export default function AboutPage() {
               But here&apos;s what I noticed: every tool I worked with was built for companies with marketing departments and dedicated social media managers. Nobody was building for the restaurant owner who needs to post &quot;closed early today&quot; while simultaneously dealing with a burst pipe. Nobody was building for the salon owner who just had a cancellation and wants to fill the slot in the next hour.
             </p>
             <p className="text-lg text-gray-800 leading-relaxed">
-              I grew up watching my mother run an LLC flipping houses during the &apos;08 crash. I saw firsthand what it looks like when a small business owner is doing everything themselves &mdash; every decision, every phone call, every fire drill. That stuck with me. When I finally decided to build something of my own, I knew exactly who I was building for.
+             I've seen firsthand what it looks like when a small business owner is doing everything themselves &mdash; every decision, every phone call, every fire drill. That stuck with me. When I finally decided to build something of my own, I knew exactly who I was building for.
             </p>
             <p className="text-sm text-gray-500 mt-4 font-medium">&mdash; Kevin, Founder</p>
           </div>
