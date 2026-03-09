@@ -4,7 +4,7 @@ export default function AboutPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">A Sales Guy Who<br />Built the Tool He Wished Existed</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">Aiceless<br />Business Alerts Made Simple.</h1>
           <p className="text-xl text-gray-500 max-w-2xl mx-auto">
             Aiceless wasn&apos;t born in a garage or a Silicon Valley incubator. It started with a simple observation that kept nagging me.
           </p>
