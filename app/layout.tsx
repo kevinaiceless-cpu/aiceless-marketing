@@ -33,6 +33,9 @@ export default function RootLayout({
 
               {/* Navigation Links */}
               <div className="hidden md:flex items-center space-x-8">
+                <Link href="/services" className="text-gray-600 hover:text-aiceless-blue transition">
+                  Services
+                </Link>
                 <Link href="/product" className="text-gray-600 hover:text-aiceless-blue transition">
                   Product
                 </Link>
@@ -127,6 +130,11 @@ export default function RootLayout({
               <div>
                 <h3 className="font-semibold text-gray-900 mb-3">Company</h3>
                 <ul className="space-y-2 text-sm">
+                  <li>
+                    <Link href="/services" className="text-gray-600 hover:text-aiceless-blue">
+                      Services
+                    </Link>
+                  </li>
                   <li>
                     <Link href="/about" className="text-gray-600 hover:text-aiceless-blue">
                       About
