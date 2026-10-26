@@ -1,6 +1,7 @@
 import './globals.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import MobileNav from '../components/MobileNav'
 
 export const metadata = {
   title: 'Aiceless - Business Alerts Made Simple',
@@ -59,21 +60,8 @@ export default function RootLayout({
                 </a>
               </div>
 
-              {/* Mobile Menu Button */}
-              <div className="md:hidden flex items-center gap-3">
-                <a 
-                  href="https://app.aiceless.com/login" 
-                  className="text-sm text-gray-600 hover:text-aiceless-blue font-medium"
-                >
-                  Log In
-                </a>
-                <a 
-                  href="https://app.aiceless.com/signup" 
-                  className="px-4 py-2 bg-aiceless-blue text-white rounded-lg text-sm font-medium"
-                >
-                  Start Free
-                </a>
-              </div>
+              {/* Mobile Menu */}
+              <MobileNav />
             </div>
           </div>
         </nav>
