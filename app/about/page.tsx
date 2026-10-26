@@ -1,117 +1,151 @@
+import Link from 'next/link'
+
+export const metadata = {
+  title: 'About - Aiceless',
+  description:
+    'Aiceless is a Boston company offering contingency recruiting for Software, Life Sciences, Healthcare and Consulting teams, plus an app that helps small businesses post updates in one step.',
+}
+
+const details = [
+  { label: 'Based in', value: 'Boston' },
+  { label: 'Industries', value: 'Software, Life Sciences, Healthcare, Consulting' },
+  { label: 'Certification', value: 'Salesforce Certified Advanced Administrator' },
+  {
+    label: 'Experience',
+    value: '10+ years in CRM administration, architecture and development; 5+ years in search and recruitment',
+  },
+  {
+    label: 'Track record',
+    value: 'Full-time placements stay 3+ years on average; 85% of extended offers accepted',
+  },
+  {
+    label: 'Tools',
+    value: 'Salesforce, ZoomInfo, Lusha, FinancialForce/Certinia, NetSuite/Oracle, LinkedIn, Clay',
+  },
+]
+
 export default function AboutPage() {
   return (
     <div className="py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Aiceless<br />Business Alerts Made Simple.</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">
+            Good hires.
+            <span className="block text-aiceless-blue mt-2">Simple tools.</span>
+          </h1>
           <p className="text-xl text-gray-500 max-w-2xl mx-auto">
-            Aiceless wasn&apos;t born in a garage or a Silicon Valley incubator. It started with a simple observation that kept nagging me.
+            Aiceless is my Boston company: contingency recruiting for Software, Life Sciences, Healthcare and
+            Consulting teams, plus an app that helps small businesses post updates in one step.
           </p>
         </div>
 
-        {/* The Origin Story */}
+        {/* Story */}
         <div className="mb-16">
           <div className="bg-aiceless-blue bg-opacity-5 border-l-4 border-aiceless-blue p-8 rounded-r-lg">
             <p className="text-lg text-gray-800 leading-relaxed mb-4">
-              I&apos;ve spent 15+ years in sales and operations, and I&apos;ve always been obsessed with the tech stack &mdash; the tools that make teams faster, the automations that eliminate busywork, the systems that let people focus on what actually matters.
+              I&apos;ve spent more than 10 years inside CRMs, doing the admin work, designing the setup and building on
+              top of it. I&apos;m a Salesforce Certified Advanced Administrator. For the last 5+ years I&apos;ve also
+              been recruiting. So when I search for someone, I already know the systems they&apos;ll be working in.
             </p>
             <p className="text-lg text-gray-800 leading-relaxed mb-4">
-              But here&apos;s what I noticed: every tool I worked with was built for companies with marketing departments and dedicated social media managers. Nobody was building for the restaurant owner who needs to post &quot;closed early today&quot; while simultaneously dealing with a burst pipe. Nobody was building for the salon owner who just had a cancellation and wants to fill the slot in the next hour.
+              Aiceless started in 2025 as software. I built an app for small businesses: you write one update, and it
+              goes to Facebook, Instagram, your Google Business Profile and a banner on your website. That app is still
+              part of Aiceless.
             </p>
             <p className="text-lg text-gray-800 leading-relaxed">
-             I've seen firsthand what it looks like when a small business owner is doing everything themselves &mdash; every decision, every phone call, every fire drill. That stuck with me. When I finally decided to build something of my own, I knew exactly who I was building for.
+              Now Aiceless also does contingency search and recruitment. You pay nothing unless the hire is still in
+              the role after 90 days.
             </p>
             <p className="text-sm text-gray-500 mt-4 font-medium">&mdash; Kevin, Founder</p>
           </div>
         </div>
 
-        {/* What Aiceless Actually Does */}
+        {/* What Aiceless Does */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">What Aiceless Does</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">Two sides of Aiceless</h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Aiceless is a single-screen alert tool for small businesses. You type a message &mdash; &quot;Closing at 3pm today&quot; or &quot;Back open after the holiday!&quot; &mdash; pick your channels, and it goes live everywhere in seconds. Facebook, Instagram, Google Business Profile, and your website. One message, every platform, instantly.
+            I recruit for Software, Life Sciences, Healthcare and Consulting companies, on contingency only. Once
+            Aiceless is an approved vendor with an agreement in place, I&apos;ll present a first candidate within two
+            business days. You pay nothing unless the hire is still in the role after 90 days.{' '}
+            <Link href="/services" className="text-aiceless-blue hover:underline font-medium">
+              See recruiting services
+            </Link>
           </p>
           <p className="text-gray-700 text-lg leading-relaxed">
-            There&apos;s an optional AI rewriter that can polish your message before it goes out, and you can schedule posts or set them to auto-expire. That&apos;s the whole product. No content calendars, no analytics dashboards, no 47-feature comparison chart. Just fast, reliable business alerts.
+            The Aiceless alerts app lets a small business post one message to Facebook, Instagram, Google Business
+            Profile and a website banner at the same time. If you want help with the wording, there&apos;s an optional
+            AI rewriter. Plans start at $15/month, and there&apos;s a 7-day free trial.{' '}
+            <Link href="/product" className="text-aiceless-blue hover:underline font-medium">
+              See how the app works
+            </Link>
           </p>
         </div>
 
-        {/* Why This, Why Now */}
+        {/* Cards */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Why I Built This</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+              <div className="w-10 h-10 bg-aiceless-blue bg-opacity-10 rounded-xl flex items-center justify-center mb-4">
+                <svg className="w-5 h-5 text-aiceless-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-gray-900 mb-2">You pay only if they stay</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Contingency only. You pay nothing unless the hire is still in the role after 90 days. My full-time
+                placements stay 3+ years on average.
+              </p>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+              <div className="w-10 h-10 bg-aiceless-teal bg-opacity-10 rounded-xl flex items-center justify-center mb-4">
+                <svg className="w-5 h-5 text-aiceless-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4" />
+                </svg>
+              </div>
+              <h3 className="font-bold text-gray-900 mb-2">A Salesforce admin who recruits</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                I&apos;ve done 10+ years of hands-on CRM administration, architecture and development. I&apos;m a
+                Salesforce Certified Advanced Administrator, and I also work in NetSuite/Oracle and
+                FinancialForce/Certinia.
+              </p>
+            </div>
+
             <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
               <div className="w-10 h-10 bg-aiceless-blue bg-opacity-10 rounded-xl flex items-center justify-center mb-4">
                 <svg className="w-5 h-5 text-aiceless-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">The tools aren&apos;t built for you</h3>
+              <h3 className="font-bold text-gray-900 mb-2">One post, every channel</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Every social media management platform I evaluated was designed for marketing teams with content calendars and monthly planning sessions. Small business owners don&apos;t work that way. They need to communicate <em>right now</em>.
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
-              <div className="w-10 h-10 bg-aiceless-blue bg-opacity-10 rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-5 h-5 text-aiceless-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="font-bold text-gray-900 mb-2">The price isn&apos;t right</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Why should a coffee shop pay $50-100/month for a tool built for agencies? Aiceless starts at $15/month because that&apos;s what makes sense for the businesses I&apos;m building for.
-              </p>
-            </div>
-
-            <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
-              <div className="w-10 h-10 bg-aiceless-blue bg-opacity-10 rounded-xl flex items-center justify-center mb-4">
-                <svg className="w-5 h-5 text-aiceless-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                </svg>
-              </div>
-              <h3 className="font-bold text-gray-900 mb-2">I wanted to build something</h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                After 15 years helping other companies sell their products, I wanted to build my own. I had zero coding experience when I started Aiceless. Every line of this product exists because I refused to let that stop me.
+                Write one update, and the Aiceless app posts it to Facebook, Instagram, Google Business Profile and your
+                website banner. There&apos;s an optional AI rewriter. From $15/month, with a 7-day free trial.
               </p>
             </div>
           </div>
         </div>
 
-        {/* The Specifics */}
+        {/* The Details */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">The Details</h2>
           <div className="bg-gray-50 rounded-2xl p-8 space-y-4">
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 text-aiceless-blue flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <p className="text-gray-700"><strong>Founded:</strong> 2025, built in Massachusetts</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 text-aiceless-blue flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <p className="text-gray-700"><strong>Platforms supported:</strong> Facebook Pages, Instagram (Stories + Feed), Google Business Profile, and website banner widgets</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 text-aiceless-blue flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <p className="text-gray-700"><strong>AI-powered:</strong> Optional AI text enhancement with multiple tones &mdash; keeps your message human, just polished</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 text-aiceless-blue flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <p className="text-gray-700"><strong>Free trial:</strong> 7 days, no credit card required. Plans start at $15/month.</p>
-            </div>
-            <div className="flex items-start gap-3">
-              <svg className="w-5 h-5 text-aiceless-blue flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-              <p className="text-gray-700"><strong>Privacy:</strong> We never access your data for advertising. Your connections are used solely to post on your behalf.</p>
-            </div>
+            {details.map((d) => (
+              <div key={d.label} className="flex items-start gap-3">
+                <svg className="w-5 h-5 text-aiceless-blue flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                <p className="text-gray-700"><strong>{d.label}:</strong> {d.value}</p>
+              </div>
+            ))}
           </div>
         </div>
 
         {/* Contact */}
         <div className="mb-16">
           <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-            <h2 className="text-2xl font-bold text-gray-900 mb-3">Questions? Just ask.</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-3">Hiring, or have a question about the app?</h2>
             <p className="text-gray-600 mb-4">
-              I read every email. If something&apos;s not working, if you have a feature idea, or if you just want to say hey &mdash; I&apos;m here.
+              Tell me about the role you&apos;re trying to fill or what you need the app to do.
             </p>
             <p className="text-gray-700">
               <strong>Email:</strong>{' '}
@@ -124,19 +158,19 @@ export default function AboutPage() {
 
         {/* CTA */}
         <div className="text-center pt-8 border-t border-gray-200">
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">
-            Ready to try it?
-          </h2>
-          <p className="text-gray-500 mb-6">7-day free trial. No credit card. Cancel anytime.</p>
-          <a 
-            href="https://app.aiceless.com/signup" 
+          <h2 className="text-2xl font-bold text-gray-900 mb-3">Have a role to fill?</h2>
+          <p className="text-gray-500 mb-6 max-w-2xl mx-auto">
+            Contingency search for Software, Life Sciences, Healthcare and Consulting teams. You pay nothing unless the
+            hire is still in the role after 90 days.
+          </p>
+          <Link
+            href="/services"
             className="inline-block px-8 py-4 bg-aiceless-blue text-white rounded-lg hover:bg-opacity-90 transition font-semibold shadow-lg"
           >
-            Start Your Free Trial
-          </a>
+            See recruiting services
+          </Link>
         </div>
       </div>
     </div>
   )
 }
-//
