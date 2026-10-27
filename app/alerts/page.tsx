@@ -52,13 +52,6 @@ export default function AlertsPage() {
               You're juggling Facebook logins, Instagram apps, website updates—just to post a simple alert 
               that you're closing early or running a flash sale. There has to be a better way.
             </p>
-            <div className="bg-aiceless-blue bg-opacity-5 border-l-4 border-aiceless-blue p-6 rounded-r-lg">
-              <p className="text-lg text-gray-900 font-medium">
-                "I spent 15 minutes trying to post the same message on Facebook and Instagram. 
-                By the time I finished, half my lunch rush was over."
-              </p>
-              <p className="text-sm text-gray-600 mt-2">- Every small business owner</p>
-            </div>
           </div>
         </div>
       </section>
@@ -181,25 +174,21 @@ export default function AlertsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="bg-white p-6 rounded-lg border border-gray-200">
-              <div className="text-2xl mb-2">🌨️</div>
               <p className="font-semibold text-gray-900 mb-1">Weather closures</p>
               <p className="text-sm text-gray-600">"Closing early due to snow - stay safe!"</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg border border-gray-200">
-              <div className="text-2xl mb-2">⚡</div>
               <p className="font-semibold text-gray-900 mb-1">Flash sales</p>
               <p className="text-sm text-gray-600">"50% off everything for the next 2 hours!"</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg border border-gray-200">
-              <div className="text-2xl mb-2">🍕</div>
               <p className="font-semibold text-gray-900 mb-1">Menu updates</p>
               <p className="text-sm text-gray-600">"Out of pepperoni - trying our new vegan option instead!"</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg border border-gray-200">
-              <div className="text-2xl mb-2">🚧</div>
               <p className="font-semibold text-gray-900 mb-1">Location changes</p>
               <p className="text-sm text-gray-600">"Road construction - please use our side entrance"</p>
             </div>
