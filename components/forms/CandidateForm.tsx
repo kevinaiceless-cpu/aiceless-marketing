@@ -13,7 +13,7 @@ const roles = [
   'Other',
 ]
 
-type Key = 'name' | 'email' | 'role' | 'location' | 'workStyle' | 'resume' | 'linkedin' | 'consent'
+type Key = 'name' | 'email' | 'role' | 'location' | 'workStyle' | 'workAuth' | 'resume' | 'linkedin' | 'consent'
 type Errors = Partial<Record<Key, string>>
 
 const MAX_MB = 10
@@ -32,6 +32,7 @@ export default function CandidateForm() {
     if (!d.get('role')) e.role = 'Choose the role you want.'
     if (!String(d.get('location') || '').trim()) e.location = 'Enter your city and state, or country.'
     if (!d.get('workStyle')) e.workStyle = 'Choose remote, hybrid or on-site.'
+    if (!d.get('workAuth')) e.workAuth = 'Choose whether you are authorized to work in the United States.'
     const li = String(d.get('linkedin') || '').trim()
     if (li && !/^https?:\/\/.+/.test(li)) e.linkedin = 'Enter the full URL, starting with https://'
     const file = d.get('resume')
@@ -142,6 +143,35 @@ export default function CandidateForm() {
         {errors.workStyle && (
           <p id="workStyle-error" className="mt-2 text-sm font-medium text-red-700">
             {errors.workStyle}
+          </p>
+        )}
+      </fieldset>
+
+      <fieldset aria-describedby={errors.workAuth ? 'workAuth-error' : undefined}>
+        <legend className="font-semibold text-gray-900">
+          Are you authorized to work in the United States? <span className="font-normal text-gray-600">(required)</span>
+        </legend>
+        <div className="mt-3 flex flex-col gap-3">
+          {['Yes', 'Yes, but will need sponsorship', 'No'].map((w, i) => (
+            <label
+              key={w}
+              className="flex min-h-[44px] items-center gap-3 rounded-lg border border-gray-300 bg-white px-4 py-2 text-gray-900 has-[:checked]:border-aiceless-blue"
+            >
+              <input
+                type="radio"
+                name="workAuth"
+                value={w}
+                id={i === 0 ? 'workAuth' : undefined}
+                aria-invalid={!!errors.workAuth}
+                className="size-4 accent-aiceless-blue"
+              />
+              {w}
+            </label>
+          ))}
+        </div>
+        {errors.workAuth && (
+          <p id="workAuth-error" className="mt-2 text-sm font-medium text-red-700">
+            {errors.workAuth}
           </p>
         )}
       </fieldset>

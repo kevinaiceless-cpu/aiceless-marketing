@@ -216,6 +216,22 @@ export default function AlertsPage() {
           </p>
         </div>
       </section>
+
+      {/* Alerts legal */}
+      <section className="py-8 bg-white border-b border-gray-200">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-600">
+          <p>
+            Aiceless Alerts:{' '}
+            <Link href="/alerts/terms" className="text-aiceless-blue underline underline-offset-2 hover:no-underline">
+              Terms of Service
+            </Link>
+            {' · '}
+            <Link href="/alerts/privacy" className="text-aiceless-blue underline underline-offset-2 hover:no-underline">
+              Privacy Policy
+            </Link>
+          </p>
+        </div>
+      </section>
     </div>
   )
 }

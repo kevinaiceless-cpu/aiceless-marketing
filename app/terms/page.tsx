@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { LegalList, LegalPage, LegalSection, Mail, Notice } from '@/components/legal'
-import { Placeholder } from '@/components/ui'
 
 export const metadata = {
   title: 'Terms of Service | Aiceless Recruiting',
@@ -9,7 +8,7 @@ export const metadata = {
 }
 
 const EFFECTIVE = 'November 2, 2026'
-const EMAIL = 'Support@Aiceless.com'
+const EMAIL = 'Kevin@aiceless.com'
 
 const toc = [
   { id: 'who-we-are', label: 'Who we are' },
@@ -57,11 +56,12 @@ export default function TermsPage() {
           full-time, permanent roles with employer clients. We work on a contingency basis: an employer pays us only
           when it hires someone we introduced. We don’t place temporary or contract workers.
         </p>
-        <Placeholder note="CONFIRM: legal entity name (e.g. Aiceless LLC) and full street address. Use only the business name(s) registered with DLS." />
         <p>
           <span className="font-semibold text-gray-900">Aiceless</span>
           <br />
-          Boston, Massachusetts
+          2234 Commonwealth Avenue
+          <br />
+          Auburndale, MA 02466
           <br />
           Email: <Mail to={EMAIL} />
         </p>
@@ -263,7 +263,7 @@ export default function TermsPage() {
         <p>
           Email: <Mail to={EMAIL} />
           <br />
-          Aiceless, Boston, Massachusetts
+          Aiceless, 2234 Commonwealth Avenue, Auburndale, MA 02466
         </p>
         <p>
           See our{' '}

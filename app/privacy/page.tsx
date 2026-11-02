@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { LegalH3, LegalList, LegalPage, LegalSection, Mail, Notice } from '@/components/legal'
-import { Placeholder } from '@/components/ui'
 
 export const metadata = {
   title: 'Privacy Policy | Aiceless Recruiting',
@@ -9,7 +8,7 @@ export const metadata = {
 }
 
 const EFFECTIVE = 'November 2, 2026'
-const EMAIL = 'Support@Aiceless.com'
+const EMAIL = 'Kevin@aiceless.com'
 
 const toc = [
   { id: 'scope', label: 'Who this covers' },
@@ -258,11 +257,10 @@ export default function PrivacyPage() {
       </LegalSection>
 
       <LegalSection id="contact" title="15. Contact us">
-        <Placeholder note="CONFIRM: privacy-request email address and full street address" />
         <p>
           For privacy questions and requests, email <Mail to={EMAIL} />.
           <br />
-          Aiceless, Boston, Massachusetts
+          Aiceless, 2234 Commonwealth Avenue, Auburndale, MA 02466
         </p>
         <p>
           See our{' '}
