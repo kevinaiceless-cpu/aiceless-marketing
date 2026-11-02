@@ -52,7 +52,7 @@ export default function TermsPage() {
     >
       <LegalSection id="who-we-are" title="1. Who we are">
         <p>
-          Aiceless is a recruiting and placement agency based in Boston, Massachusetts. We find candidates for
+          Aiceless is a recruiting and placement agency based in Massachusetts. We find candidates for
           full-time, permanent roles with employer clients. We work on a contingency basis: an employer pays us only
           when it hires someone we introduced. We don’t place temporary or contract workers.
         </p>

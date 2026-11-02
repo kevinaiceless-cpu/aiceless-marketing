@@ -53,10 +53,10 @@ export default function SiteFooter() {
               { href: '/signup', label: 'Sign up' },
               { href: LOGIN_URL, label: 'Log in' },
               // Interim support link (the existing support address) until a support URL is supplied.
-              { href: 'mailto:Support@Aiceless.com', label: 'Support' },
+              { href: 'mailto:Kevin@aiceless.com', label: 'Support' },
             ]}
           >
-            <Placeholder note="PLACEHOLDER: support URL (using Support@Aiceless.com until supplied)" />
+            <Placeholder note="PLACEHOLDER: support URL (using Kevin@aiceless.com until supplied)" />
           </Column>
 
           <Column

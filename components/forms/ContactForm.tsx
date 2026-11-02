@@ -143,8 +143,8 @@ export default function ContactForm({ defaultNeed = '' }: { defaultNeed?: Need }
         {status === 'unavailable' && (
           <p className="rounded-lg border border-amber-700 bg-white p-4 text-amber-700 font-medium">
             This form isn’t connected yet. Please email{' '}
-            <a href="mailto:Support@Aiceless.com" className="underline">
-              Support@Aiceless.com
+            <a href="mailto:Kevin@aiceless.com" className="underline">
+              Kevin@aiceless.com
             </a>{' '}
             for now.
           </p>

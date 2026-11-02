@@ -37,7 +37,7 @@ export default function PrivacyPage() {
       intro={
         <>
           <p>
-            Aiceless is a recruiting and placement agency based in Boston, Massachusetts. This policy explains what
+            Aiceless is a recruiting and placement agency based in Massachusetts. This policy explains what
             information we collect, how we use it, who we share it with, and the choices you have.
           </p>
           <p>
