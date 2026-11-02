@@ -13,7 +13,7 @@ const roles = [
   'Other',
 ]
 
-type Key = 'name' | 'email' | 'role' | 'location' | 'workStyle' | 'resume' | 'linkedin'
+type Key = 'name' | 'email' | 'role' | 'location' | 'workStyle' | 'resume' | 'linkedin' | 'consent'
 type Errors = Partial<Record<Key, string>>
 
 const MAX_MB = 10
@@ -38,6 +38,7 @@ export default function CandidateForm() {
     if (!(file instanceof File) || !file.name) e.resume = 'Attach your resume as a PDF or Word file.'
     else if (!/\.(pdf|docx?)$/i.test(file.name)) e.resume = 'Use a PDF or Word file (.pdf, .doc or .docx).'
     else if (file.size > MAX_MB * 1024 * 1024) e.resume = `Use a file under ${MAX_MB} MB.`
+    if (!d.get('consent')) e.consent = 'Check the box to agree before you submit.'
     return e
   }
 
@@ -55,6 +56,8 @@ export default function CandidateForm() {
       return
     }
     setStatus('sending')
+    // Compliance (454 CMR 24.14(1)): the backend must store a dated submission (server-side timestamp) with each resume.
+    // Never add salary-history, criminal-history, SSN, ID or bank-number fields to this form.
     // TODO: upload to the chosen storage + notify Kevin, then setStatus('sent').
   }
 
@@ -171,17 +174,62 @@ export default function CandidateForm() {
         />
       </Field>
 
+      <div
+        role="note"
+        aria-labelledby="lie-detector-heading"
+        className="rounded-lg border-2 border-gray-300 bg-gray-50 p-5 text-base leading-relaxed text-gray-900"
+      >
+        <p id="lie-detector-heading" className="font-bold">
+          Massachusetts notice
+        </p>
+        <p className="mt-2">
+          It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment
+          or continued employment. An employer who violates this law shall be subject to criminal penalties and civil
+          liability.
+        </p>
+      </div>
+
+      <div>
+        <label
+          htmlFor="consent"
+          className="flex items-start gap-3 rounded-lg border border-gray-300 bg-white p-4 text-base text-gray-900 has-[:checked]:border-aiceless-blue"
+        >
+          <input
+            id="consent"
+            name="consent"
+            type="checkbox"
+            required
+            className="mt-1 size-5 flex-shrink-0 accent-aiceless-blue"
+            {...a('consent')}
+          />
+          <span>
+            I agree to the{' '}
+            <Link href="/privacy" className="font-semibold text-aiceless-blue underline underline-offset-2">
+              Privacy Policy
+            </Link>{' '}
+            and{' '}
+            <Link href="/terms" className="font-semibold text-aiceless-blue underline underline-offset-2">
+              Terms of Service
+            </Link>
+            , and I consent to Aiceless storing my information and contacting me about roles. Aiceless will
+            contact you before submitting your résumé to any employer. You will never be charged a fee.{' '}
+            <span className="text-gray-600">(required)</span>
+          </span>
+        </label>
+        {errors.consent && (
+          <p id="consent-error" className="mt-2 text-sm font-medium text-red-700">
+            {errors.consent}
+          </p>
+        )}
+      </div>
+
       <div>
         <button type="submit" className={submitCls} disabled={status === 'sending'}>
           {status === 'sending' ? 'Sending…' : 'Submit your profile'}
         </button>
         <p className="mt-4 text-sm text-gray-600 max-w-prose">
-          By submitting, you agree that Aiceless can store your information and contact you about Salesforce
-          roles. I won’t share your resume with an employer without your permission. See our{' '}
-          <Link href="/privacy" className="font-semibold text-aiceless-blue underline underline-offset-2">
-            Privacy Policy
-          </Link>
-          .
+          Please don’t include your salary history, Social Security number, ID numbers or bank details in your
+          resume or anywhere on this form.
         </p>
       </div>
 

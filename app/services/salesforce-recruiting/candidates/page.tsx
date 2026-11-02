@@ -80,7 +80,7 @@ export default function CandidatesPage() {
           <H2 id="form-heading" className="mb-8">
             Send me your profile
           </H2>
-          <Placeholder note="CONFIRM: resume required or optional; privacy policy updated to cover resumes and data storage location decided before launch" />
+          <Placeholder note="CONFIRM: resume required or optional; data storage location decided before launch (Privacy Policy now covers resumes)" />
           <CandidateForm />
         </div>
       </Section>

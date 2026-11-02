@@ -170,8 +170,8 @@ export default function DataDeletionPage() {
               </p>
               <p className="text-gray-700">
                 <strong>Privacy Policy:</strong>{' '}
-                <a href="/privacy" className="text-[#1B5A8E] hover:underline">
-                  aiceless.com/privacy
+                <a href="/alerts/privacy" className="text-[#1B5A8E] hover:underline">
+                  aiceless.com/alerts/privacy
                 </a>
               </p>
             </div>
