@@ -15,7 +15,7 @@ import {
 export const metadata = {
   title: 'CRM Recruiting | No fee unless you hire | Aiceless',
   description:
-    'CRM admins, developers, architects, consultants and managers, screened by a Certified Advanced Administrator. Contingency only. No fee unless you hire.',
+    'CRM admins, developers, architects, consultants and managers, screened by a Salesforce Certified Advanced Administrator. Contingency only. No fee unless you hire.',
 }
 
 const BOOK_HIRE = '/services/contact?need=hire'

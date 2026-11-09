@@ -56,7 +56,7 @@ export default function CandidatesPage() {
               <div>
                 <dt className="font-bold text-gray-900">You get straight feedback.</dt>
                 <dd className="mt-1 text-gray-600">
-                  I’m a Certified Advanced Administrator, so we can talk about your CRM work in
+                  I’m a Salesforce Certified Advanced Administrator, so we can talk about your CRM work in
                   detail. If an interview doesn’t go your way, I’ll tell you what I heard and why.
                 </dd>
               </div>

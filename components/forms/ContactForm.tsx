@@ -7,7 +7,7 @@ import { FORMS_CONNECTED, Field, describedBy, inputCls, submitCls } from './fiel
 export type Need = 'admin' | 'health-check' | 'hire' | 'candidate' | ''
 
 const needs: { value: Need; label: string }[] = [
-  { value: 'health-check', label: 'A free CRM health check' },
+  { value: 'health-check', label: 'A free CRM Health check' },
   { value: 'admin', label: 'A fractional operations or CRM admin' },
   { value: 'hire', label: 'Help hiring for an operations or CRM role' },
   { value: 'candidate', label: 'I’m looking for a CRM job' },

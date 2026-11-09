@@ -16,7 +16,7 @@ import {
 export const metadata = {
   title: 'Fractional CRM Admin | Starting at $1,000 per month | Aiceless',
   description:
-    'A Certified Advanced Administrator who runs your CRM on a monthly plan. Users, reports, flows and data cleanup, starting at $1,000 per month. Get a free health check.',
+    'A Salesforce Certified Advanced Administrator who runs your CRM on a monthly plan. Users, reports, flows and data cleanup, starting at $1,000 per month. Get a free health check.',
 }
 
 const HEALTH_CHECK = '/services/contact?need=health-check'
@@ -29,7 +29,7 @@ export default function CrmAdminPage() {
         line1="Your CRM, looked after."
         line2="No full-time admin required."
         subhead="I handle the reports, flows, user access and data cleanup your team keeps putting off. Starting at $1,000 per month for 10 hours a week of dedicated administration."
-        smallPrint="Certified Advanced Administrator. Based in Massachusetts."
+        smallPrint="Salesforce Certified Advanced Administrator. Based in Boston."
       >
         <ButtonLink href={HEALTH_CHECK} shadow>
           Get a free health check
@@ -169,7 +169,7 @@ export default function CrmAdminPage() {
         <H2 id="proof-heading" className="sr-only">
           Credentials
         </H2>
-        <p className="text-xl md:text-2xl font-semibold text-gray-900">Certified Advanced Administrator.</p>
+        <p className="text-xl md:text-2xl font-semibold text-gray-900">Salesforce Certified Advanced Administrator.</p>
         <Placeholder note="PLACEHOLDER: certification badge image, if Kevin has rights to display it through Trailhead/Credential verification" />
         <Placeholder note="PLACEHOLDER: testimonial from a fractional admin client, with name, title and company" />
         <Placeholder note="PLACEHOLDER: testimonial from a second fractional admin client, with name, title and company" />
@@ -182,7 +182,7 @@ export default function CrmAdminPage() {
         </H2>
         <KevinBio placeholder="PLACEHOLDER: headshot of Kevin">
           <p>
-            I’m Kevin. I’m a Certified Advanced Administrator based in Massachusetts, with 10+ years of
+            I’m Kevin. I’m a Salesforce Certified Advanced Administrator based in Boston, with 10+ years of
             hands-on CRM administration, architecture and development.
           </p>
           <p>

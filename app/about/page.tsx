@@ -4,7 +4,7 @@ import Container from '@/components/Container'
 export const metadata = {
   title: 'About | Kevin and Aiceless',
   description:
-    'Aiceless is run by Kevin, a Massachusetts-based Certified Advanced Administrator. It makes Aiceless Alerts for small businesses and offers operations and CRM admin and recruiting services.',
+    'Aiceless is run by Kevin, a Boston-based Salesforce Certified Advanced Administrator. It makes Aiceless Alerts for small businesses and offers operations and CRM admin and recruiting services.',
 }
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
       <PageHero
         line1="I’m Kevin."
         line2="I run Aiceless."
-        subhead="I’m a Certified Advanced Administrator based in Massachusetts."
+        subhead="I’m a Salesforce Certified Advanced Administrator based in Boston."
       />
 
       <Section labelledBy="story-heading">
