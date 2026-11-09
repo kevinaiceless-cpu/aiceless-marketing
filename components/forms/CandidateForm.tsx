@@ -4,13 +4,14 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { FORMS_CONNECTED, Field, describedBy, inputCls, submitCls } from './fields'
 
+// Values are stable IDs for the backend; labels can change without breaking stored submissions.
 const roles = [
-  'Salesforce Admin',
-  'Salesforce Developer',
-  'Salesforce Architect',
-  'Salesforce Consultant',
-  'CRM Manager',
-  'Other',
+  { value: 'admin', label: 'Salesforce Admin / CRM Admin' },
+  { value: 'developer', label: 'Salesforce Developer / CRM Developer' },
+  { value: 'architect', label: 'Salesforce Architect / CRM Architect' },
+  { value: 'consultant', label: 'Salesforce Consultant / CRM Consultant' },
+  { value: 'crm-manager', label: 'CRM Manager' },
+  { value: 'other', label: 'Other' },
 ]
 
 type Key = 'name' | 'email' | 'role' | 'location' | 'workStyle' | 'workAuth' | 'resume' | 'linkedin' | 'consent'
@@ -101,7 +102,9 @@ export default function CandidateForm() {
             Choose one
           </option>
           {roles.map((r) => (
-            <option key={r}>{r}</option>
+            <option key={r.value} value={r.value}>
+              {r.label}
+            </option>
           ))}
         </select>
       </Field>
@@ -176,7 +179,7 @@ export default function CandidateForm() {
         )}
       </fieldset>
 
-      <Field id="certs" label="Salesforce certifications">
+      <Field id="certs" label="CRM certifications">
         <input id="certs" name="certs" type="text" className={inputCls} />
       </Field>
 

@@ -13,9 +13,9 @@ import {
 } from '@/components/ui'
 
 export const metadata = {
-  title: 'Salesforce Recruiting | No fee unless you hire | Aiceless',
+  title: 'CRM Recruiting | No fee unless you hire | Aiceless',
   description:
-    'Salesforce admins, developers, architects, consultants and CRM managers, screened by a Salesforce Certified Advanced Administrator. Contingency only. No fee unless you hire.',
+    'CRM admins, developers, architects, consultants and managers, screened by a Certified Advanced Administrator. Contingency only. No fee unless you hire.',
 }
 
 const BOOK_HIRE = '/services/contact?need=hire'
@@ -23,39 +23,39 @@ const CONTINGENCY = 'Contingency only. You pay nothing unless the hire is still 
 
 const roles = [
   {
-    title: 'Salesforce Admin',
+    title: 'Salesforce Admin / CRM Admin',
     desc: 'Runs the org day to day: users, security, reports and flows.',
     screen: 'how they’d fix a broken flow, set up permissions for a new team and clean up bad data.',
   },
   {
-    title: 'Salesforce Developer',
+    title: 'Salesforce Developer / CRM Developer',
     desc: 'Builds what configuration can’t: Apex, Lightning Web Components and integrations.',
     screen: 'clean, tested code and an understanding of governor limits.',
   },
   {
-    title: 'Salesforce Architect',
+    title: 'Salesforce Architect / CRM Architect',
     desc: 'Designs the data model, integrations and long-term shape of the org.',
     screen: 'the trade-offs behind their past design decisions.',
   },
   {
-    title: 'Salesforce Consultant',
-    desc: 'Turns business processes into Salesforce configuration, for clients or internal teams.',
+    title: 'Salesforce Consultant / CRM Consultant',
+    desc: 'Turns business processes into CRM configuration, for clients or internal teams.',
     screen: 'how they run discovery and how they explain a design to non-technical people.',
   },
   {
     title: 'CRM Manager',
-    desc: 'Owns Salesforce as a business system: the roadmap, adoption and vendors.',
+    desc: 'Owns the CRM as a business system: the roadmap, adoption and vendors.',
     screen: 'how they set priorities and report results to leadership.',
   },
 ]
 
-export default function SalesforceRecruitingPage() {
+export default function CrmRecruitingPage() {
   return (
     <>
       <PageHero
-        line1="Salesforce hires, screened by a Salesforce admin."
+        line1="CRM hires, screened by a CRM admin."
         line2="No fee unless you hire."
-        subhead="I recruit Salesforce admins, developers, architects, consultants and CRM managers. I do hands-on Salesforce work myself, so I can tell who knows the platform and who just has the keywords."
+        subhead="I recruit CRM admins, developers, architects, consultants and managers. I do hands-on CRM work myself, so I can tell who knows the platform and who just has the keywords."
       >
         <ButtonLink href={BOOK_HIRE} shadow>
           Book a call
@@ -102,12 +102,12 @@ export default function SalesforceRecruitingPage() {
           steps={[
             {
               title: 'Intake call.',
-              body: 'We go over the role, the team, your Salesforce setup and what the person will do in their first six months.',
+              body: 'We go over the role, the team, your CRM setup and what the person will do in their first six months.',
             },
             { title: 'Sourcing.', body: 'I look for people who have done this exact job before.' },
             {
               title: 'Technical screening.',
-              body: 'I interview every candidate about real Salesforce work before you see them.',
+              body: 'I interview every candidate about real CRM work before you see them.',
             },
             { title: 'Shortlist.', body: 'You get a short list of screened candidates, with my notes on each.' },
             {
@@ -143,12 +143,12 @@ export default function SalesforceRecruitingPage() {
           </div>
         </dl>
         <Placeholder note="PLACEHOLDER: testimonial from a hiring manager, with name, title and company" />
-        <Placeholder note="PLACEHOLDER: recent placements by role and company type, e.g. Salesforce Admin, healthcare company. Leave out at launch if Kevin can't cite any yet." />
+        <Placeholder note="PLACEHOLDER: recent placements by role and company type, e.g. CRM Admin, healthcare company. Leave out at launch if Kevin can't cite any yet." />
       </Section>
 
       <Section labelledBy="why-heading">
         <div className="max-w-3xl">
-          <H2 id="why-heading">Your recruiter does Salesforce work</H2>
+          <H2 id="why-heading">Your recruiter does CRM work</H2>
           <p className="mt-6 text-lg text-gray-600 text-pretty">
             I’m a Salesforce Certified Advanced Administrator with 10+ years of hands-on CRM administration,
             architecture and development, and I still do admin work for clients every week. When I interview a
@@ -190,7 +190,7 @@ export default function SalesforceRecruitingPage() {
               a: (
                 <>
                   <p>
-                    Yes. I’m also a fractional Salesforce admin, starting at $1,000 per month. I can keep your org
+                    Yes. I’m also a fractional CRM admin, starting at $1,000 per month. I can keep your org
                     running while I find your permanent person.
                   </p>
                   <p>
@@ -207,11 +207,11 @@ export default function SalesforceRecruitingPage() {
       </Section>
 
       <FinalCta
-        heading="Hiring for a Salesforce role?"
+        heading="Hiring for a CRM role?"
         body={`Book a call and tell me about the role. ${CONTINGENCY}`}
         after={
           <p>
-            Looking for a Salesforce job?{' '}
+            Looking for a CRM job?{' '}
             <Link
               href="/services/salesforce-recruiting/candidates"
               className="font-semibold text-white underline underline-offset-4 decoration-2 hover:decoration-white/60"

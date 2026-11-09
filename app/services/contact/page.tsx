@@ -5,7 +5,7 @@ import ContactForm, { type Need } from '@/components/forms/ContactForm'
 export const metadata = {
   title: 'Book a call | Operations and CRM help and recruiting | Aiceless',
   description:
-    'Need operations or CRM admin help, a Salesforce health check or a new hire? Tell me what’s going on. I reply within one business day.',
+    'Need operations or CRM admin help, a CRM health check or a new hire? Tell me what’s going on. I reply within one business day.',
 }
 
 const valid: Need[] = ['admin', 'health-check', 'hire', 'candidate']
@@ -31,10 +31,10 @@ export default async function ContactPage({
               Need admin help, a health check or a new hire? Tell me what’s going on in your operations or CRM.
             </p>
             <p className="mt-6 text-sm text-gray-600">
-              Salesforce Certified Advanced Administrator. Based in Boston.
+              Certified Advanced Administrator. Based in Massachusetts.
             </p>
             <p className="mt-8 text-base text-gray-600">
-              Looking for a Salesforce role?{' '}
+              Looking for a CRM role?{' '}
               <Link
                 href="/services/salesforce-recruiting/candidates#profile-form"
                 className="font-semibold text-aiceless-blue underline underline-offset-4"

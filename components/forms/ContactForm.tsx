@@ -7,10 +7,10 @@ import { FORMS_CONNECTED, Field, describedBy, inputCls, submitCls } from './fiel
 export type Need = 'admin' | 'health-check' | 'hire' | 'candidate' | ''
 
 const needs: { value: Need; label: string }[] = [
-  { value: 'health-check', label: 'A free Salesforce health check' },
+  { value: 'health-check', label: 'A free CRM health check' },
   { value: 'admin', label: 'A fractional operations or CRM admin' },
   { value: 'hire', label: 'Help hiring for an operations or CRM role' },
-  { value: 'candidate', label: 'I’m looking for a Salesforce job' },
+  { value: 'candidate', label: 'I’m looking for a CRM job' },
 ]
 
 type Errors = Partial<Record<'name' | 'email' | 'need', string>>

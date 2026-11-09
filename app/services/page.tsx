@@ -3,7 +3,7 @@ import { ButtonLink, FinalCta, H2, KevinBio, OnBlueButton, PageHero, Section, Te
 export const metadata = {
   title: 'Operations and CRM services | Fractional admin and recruiting | Aiceless',
   description:
-    'Operations and CRM help for growing teams: a fractional operations and CRM admin starting at $1,000 per month, or operations and CRM recruiting with no fee unless you hire. From a Salesforce Certified Advanced Administrator.',
+    'Operations and CRM help for growing teams: a fractional operations and CRM admin starting at $1,000 per month, or operations and CRM recruiting with no fee unless you hire. From a Certified Advanced Administrator.',
 }
 
 function ServiceCard({
@@ -99,7 +99,7 @@ export default function ServicesHubPage() {
         </H2>
         <KevinBio placeholder="PLACEHOLDER: headshot of Kevin">
           <p>
-            I’m Kevin, a Salesforce Certified Advanced Administrator based in Boston. I have 10+ years of
+            I’m Kevin, a Certified Advanced Administrator based in Massachusetts. I have 10+ years of
             hands-on CRM administration, architecture and development, and 5+ years of search and recruitment
             experience. When you work with Aiceless, you work with me.
           </p>

@@ -73,7 +73,7 @@ export default function HomePage() {
               body="A part-time operations and CRM admin when you need one. A permanent hire when you’re ready for one."
               proof={
                 <p className="text-sm text-gray-600">
-                  Salesforce Certified Advanced Administrator. 10+ years of hands-on CRM administration,
+                  Certified Advanced Administrator. 10+ years of hands-on CRM administration,
                   architecture and development.
                 </p>
               }
@@ -98,7 +98,7 @@ export default function HomePage() {
             </h2>
             <p className="text-xl md:text-2xl text-gray-900 leading-relaxed text-pretty">
               I’m Kevin. Aiceless is my company, and I run it from Boston. Aiceless Alerts is our app for small
-              businesses. On the services side, I’m a Salesforce Certified Advanced Administrator, and I do the
+              businesses. On the services side, I’m a Certified Advanced Administrator, and I do the
               admin work and the recruiting myself.
             </p>
             <p className="mt-6 text-lg">

@@ -14,22 +14,22 @@ import {
 } from '@/components/ui'
 
 export const metadata = {
-  title: 'Fractional Salesforce Admin | Starting at $1,000 per month | Aiceless',
+  title: 'Fractional CRM Admin | Starting at $1,000 per month | Aiceless',
   description:
-    'A Salesforce Certified Advanced Administrator who runs your org on a monthly plan. Users, reports, flows and data cleanup, starting at $1,000 per month. Get a free health check.',
+    'A Certified Advanced Administrator who runs your CRM on a monthly plan. Users, reports, flows and data cleanup, starting at $1,000 per month. Get a free health check.',
 }
 
 const HEALTH_CHECK = '/services/contact?need=health-check'
 const BOOK_ADMIN = '/services/contact?need=admin'
 
-export default function SalesforceAdminPage() {
+export default function CrmAdminPage() {
   return (
     <>
       <PageHero
-        line1="Your Salesforce, looked after."
+        line1="Your CRM, looked after."
         line2="No full-time admin required."
         subhead="I handle the reports, flows, user access and data cleanup your team keeps putting off. Starting at $1,000 per month for 10 hours a week of dedicated administration."
-        smallPrint="Salesforce Certified Advanced Administrator. Based in Boston."
+        smallPrint="Certified Advanced Administrator. Based in Massachusetts."
       >
         <ButtonLink href={HEALTH_CHECK} shadow>
           Get a free health check
@@ -57,7 +57,7 @@ export default function SalesforceAdminPage() {
                 'Your data has duplicates, and nobody trusts the reports.',
                 'Your sales reps spend their afternoons doing admin work.',
                 'A flow broke, and nobody knows who built it.',
-                'People stopped logging into Salesforce.',
+                'People stopped logging into the CRM.',
                 'Your admin left, and nobody knows how things were set up.',
                 'There’s a backlog of requests and nobody owns it.',
               ]}
@@ -94,7 +94,7 @@ export default function SalesforceAdminPage() {
               <h3 className="text-xl font-bold text-gray-900">What’s not included</h3>
               {/* Copy edit: source sentence was garbled ("...from another CRM or don't fit"). Flagged for Writer. */}
               <p className="mt-3 text-lg text-gray-600 text-pretty">
-                Large projects, like a new Salesforce implementation or a migration from another CRM, don’t fit
+                Large projects, like a new CRM implementation or a migration from another system, don’t fit
                 in a monthly plan. If you need one, I’ll tell you up front and we’ll scope it separately.
               </p>
             </div>
@@ -110,7 +110,7 @@ export default function SalesforceAdminPage() {
           steps={[
             {
               title: 'Intro call.',
-              body: 'You tell me what’s going on with your Salesforce and what’s getting in the way.',
+              body: 'You tell me what’s going on with your CRM and what’s getting in the way.',
             },
             {
               title: 'Free health check.',
@@ -154,10 +154,10 @@ export default function SalesforceAdminPage() {
           <Placeholder note="PLACEHOLDER: Unused hours: roll over, expire, or not applicable" />
           <p className="mt-4 text-lg text-gray-600 text-pretty">
             If your workload grows past what a monthly plan makes sense for, I’ll tell you. I also recruit
-            Salesforce admins, so I can find you a full-time person and keep your org running while I search.
+            CRM admins, so I can find you a full-time person and keep your org running while I search.
           </p>
           <p className="mt-4 text-lg">
-            <TextLink href="/services/salesforce-recruiting">See Salesforce recruiting</TextLink>
+            <TextLink href="/services/salesforce-recruiting">See CRM recruiting</TextLink>
           </p>
           <div className="mt-8">
             <ButtonLink href={HEALTH_CHECK}>Get a free health check</ButtonLink>
@@ -169,7 +169,7 @@ export default function SalesforceAdminPage() {
         <H2 id="proof-heading" className="sr-only">
           Credentials
         </H2>
-        <p className="text-xl md:text-2xl font-semibold text-gray-900">Salesforce Certified Advanced Administrator.</p>
+        <p className="text-xl md:text-2xl font-semibold text-gray-900">Certified Advanced Administrator.</p>
         <Placeholder note="PLACEHOLDER: certification badge image, if Kevin has rights to display it through Trailhead/Credential verification" />
         <Placeholder note="PLACEHOLDER: testimonial from a fractional admin client, with name, title and company" />
         <Placeholder note="PLACEHOLDER: testimonial from a second fractional admin client, with name, title and company" />
@@ -182,7 +182,7 @@ export default function SalesforceAdminPage() {
         </H2>
         <KevinBio placeholder="PLACEHOLDER: headshot of Kevin">
           <p>
-            I’m Kevin. I’m a Salesforce Certified Advanced Administrator based in Boston, with 10+ years of
+            I’m Kevin. I’m a Certified Advanced Administrator based in Massachusetts, with 10+ years of
             hands-on CRM administration, architecture and development.
           </p>
           <p>
@@ -190,8 +190,8 @@ export default function SalesforceAdminPage() {
             your org.
           </p>
           <p>
-            Along with Salesforce, I work with FinancialForce/Certinia, NetSuite/Oracle, ZoomInfo, Lusha, Clay and
-            LinkedIn, so I can help when your Salesforce connects to the rest of your stack.
+            Along with your CRM, I work with FinancialForce/Certinia, NetSuite/Oracle, ZoomInfo, Lusha, Clay and
+            LinkedIn, so I can help when your CRM connects to the rest of your stack.
           </p>
           <p>
             <TextLink href="/about">More about me</TextLink>
@@ -239,7 +239,7 @@ export default function SalesforceAdminPage() {
               q: 'What access do you need from us?',
               a: (
                 <p>
-                  A Salesforce user with system administrator access, plus access to your sandboxes. If your org
+                  A CRM user with system administrator access, plus access to your sandboxes. If your org
                   connects to other systems, we’ll talk about whether I need access to those too.
                   <Placeholder note="CONFIRM: access needed FAQ answer" />
                 </p>

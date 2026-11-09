@@ -2,18 +2,18 @@ import CandidateForm from '@/components/forms/CandidateForm'
 import { ButtonLink, Checklist, H2, PageHero, Placeholder, Section, TextLink } from '@/components/ui'
 
 export const metadata = {
-  title: 'Salesforce Jobs | Submit your profile | Aiceless',
+  title: 'CRM Jobs | Submit your profile | Aiceless',
   description:
-    'Salesforce admins, developers, architects, consultants and CRM managers: send your profile to a recruiter who does Salesforce work. Free and confidential.',
+    'CRM admins, developers, architects, consultants and managers: send your profile to a recruiter who does CRM work. Free and confidential.',
 }
 
 export default function CandidatesPage() {
   return (
     <>
       <PageHero
-        line1="Your next Salesforce role."
+        line1="Your next CRM role."
         line2="Found by someone who does the work."
-        subhead="I place Salesforce admins, developers, architects, consultants and CRM managers. It’s free for candidates."
+        subhead="I place CRM admins, developers, architects, consultants and managers. It’s free for candidates."
       >
         <ButtonLink href="#profile-form" shadow>
           Submit your profile
@@ -29,10 +29,10 @@ export default function CandidatesPage() {
             <Placeholder note="CONFIRM: same role list as the employer page" />
             <Checklist
               items={[
-                'Salesforce Admin',
-                'Salesforce Developer',
-                'Salesforce Architect',
-                'Salesforce Consultant',
+                'Salesforce Admin / CRM Admin',
+                'Salesforce Developer / CRM Developer',
+                'Salesforce Architect / CRM Architect',
+                'Salesforce Consultant / CRM Consultant',
                 'CRM Manager',
               ]}
             />
@@ -56,7 +56,7 @@ export default function CandidatesPage() {
               <div>
                 <dt className="font-bold text-gray-900">You get straight feedback.</dt>
                 <dd className="mt-1 text-gray-600">
-                  I’m a Salesforce Certified Advanced Administrator, so we can talk about your Salesforce work in
+                  I’m a Certified Advanced Administrator, so we can talk about your CRM work in
                   detail. If an interview doesn’t go your way, I’ll tell you what I heard and why.
                 </dd>
               </div>
@@ -87,7 +87,7 @@ export default function CandidatesPage() {
 
       <Section tone="gray">
         <p className="text-lg text-gray-600">
-          Hiring for a Salesforce role? <TextLink href="/services/salesforce-recruiting">Work with me on a search</TextLink>
+          Hiring for a CRM role? <TextLink href="/services/salesforce-recruiting">Work with me on a search</TextLink>
         </p>
       </Section>
     </>

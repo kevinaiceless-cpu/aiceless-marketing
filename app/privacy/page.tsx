@@ -74,7 +74,7 @@ export default function PrivacyPage() {
           items={[
             'Your résumé or CV',
             'Contact details, such as name, email, phone number and city or region',
-            'Work history, skills and certifications (for example, Salesforce certifications)',
+            'Work history, skills and certifications (for example, CRM certifications)',
             'The roles, location and work style you’re looking for',
             'Desired compensation (what you want to earn, not what you earn now)',
             'Work authorization: only whether you’re authorized to work in the country of the role and whether you need sponsorship',
