@@ -1,8 +1,8 @@
 export const LOGIN_URL = 'https://app.aiceless.com/login'
 
 export const servicesLinks = [
-  { href: '/services/salesforce-admin', label: 'Fractional Salesforce admin' },
-  { href: '/services/salesforce-recruiting', label: 'Salesforce recruiting' },
+  { href: '/services/salesforce-admin', label: 'Fractional operations and CRM admin' },
+  { href: '/services/salesforce-recruiting', label: 'Operations and CRM recruiting' },
   { href: '/services', label: 'All services' },
 ]
 

@@ -4,7 +4,7 @@ import Container from '@/components/Container'
 export const metadata = {
   title: 'About | Kevin and Aiceless',
   description:
-    'Aiceless is run by Kevin, a Boston-based Salesforce Certified Advanced Administrator. It makes Aiceless Alerts for small businesses and offers Salesforce admin and recruiting services.',
+    'Aiceless is run by Kevin, a Boston-based Salesforce Certified Advanced Administrator. It makes Aiceless Alerts for small businesses and offers operations and CRM admin and recruiting services.',
 }
 
 export default function AboutPage() {
@@ -56,10 +56,10 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="rounded-lg border border-gray-200 bg-white p-6 sm:p-8">
-            <h3 className="text-2xl font-bold text-gray-900">Salesforce services</h3>
+            <h3 className="text-2xl font-bold text-gray-900">Operations and CRM services</h3>
             <p className="mt-3 text-lg text-gray-600 text-pretty">
-              For growing teams. I work as a fractional Salesforce admin, starting at $1,000 per month, and I
-              recruit Salesforce professionals on contingency, with no fee unless you hire.
+              For growing teams. I work as a fractional operations and CRM admin, starting at $1,000 per month, and I
+              recruit operations and CRM professionals on contingency, with no fee unless you hire.
             </p>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function AboutPage() {
 
       <Section labelledBy="fits-heading">
         <div className="max-w-3xl">
-          <H2 id="fits-heading">How the Salesforce work fits together</H2>
+          <H2 id="fits-heading">How the operations and CRM work fit together</H2>
           <p className="mt-6 text-lg text-gray-600 text-pretty">
             The admin work and the recruiting make each other better. Because I’m in Salesforce orgs every week, I
             know what a good admin or developer looks like, and I screen candidates on real work. And when a
@@ -89,7 +89,7 @@ export default function AboutPage() {
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
               <p className="text-lg md:text-xl text-white/90">
-                Need help with Salesforce, or hiring for a Salesforce role?
+                Need operations or CRM help, or hiring for an operations or CRM role?
               </p>
               <div className="mt-6">
                 <OnBlueButton href="/services/contact">Book a call</OnBlueButton>

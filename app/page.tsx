@@ -2,9 +2,9 @@ import Container from '@/components/Container'
 import { ButtonLink, Placeholder, TextLink } from '@/components/ui'
 
 export const metadata = {
-  title: 'Aiceless | Simple tools for small businesses. Salesforce help for growing ones.',
+  title: 'Aiceless | Simple tools for small businesses. Operations help for growing ones.',
   description:
-    'Aiceless Alerts posts closures, sales and updates everywhere in one click. Aiceless also offers fractional Salesforce admin and Salesforce recruiting.',
+    'Operations help for growing businesses: Aiceless offers operations and CRM support, from a fractional admin to permanent recruiting. Aiceless Alerts posts closures, sales and updates everywhere in one click.',
 }
 
 function Door({
@@ -45,7 +45,7 @@ export default function HomePage() {
           <div className="max-w-4xl">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 tracking-tight leading-tight text-balance">
               Simple tools for small businesses.
-              <span className="block text-aiceless-blue mt-2">Salesforce help for growing ones.</span>
+              <span className="block text-aiceless-blue mt-2">Operations help for growing ones.</span>
             </h1>
             <p className="mt-6 text-lg md:text-xl text-gray-600">Pick the one you came for.</p>
           </div>
@@ -69,8 +69,8 @@ export default function HomePage() {
 
             <Door
               id="door-services"
-              heading="Salesforce services"
-              body="A part-time Salesforce admin when you need one. A permanent Salesforce hire when you’re ready for one."
+              heading="Operations & CRM services"
+              body="A part-time operations and CRM admin when you need one. A permanent hire when you’re ready for one."
               proof={
                 <p className="text-sm text-gray-600">
                   Salesforce Certified Advanced Administrator. 10+ years of hands-on CRM administration,
@@ -98,7 +98,7 @@ export default function HomePage() {
             </h2>
             <p className="text-xl md:text-2xl text-gray-900 leading-relaxed text-pretty">
               I’m Kevin. Aiceless is my company, and I run it from Boston. Aiceless Alerts is our app for small
-              businesses. On the Salesforce side, I’m a Salesforce Certified Advanced Administrator, and I do the
+              businesses. On the services side, I’m a Salesforce Certified Advanced Administrator, and I do the
               admin work and the recruiting myself.
             </p>
             <p className="mt-6 text-lg">

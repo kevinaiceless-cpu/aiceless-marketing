@@ -8,8 +8,8 @@ export type Need = 'admin' | 'health-check' | 'hire' | 'candidate' | ''
 
 const needs: { value: Need; label: string }[] = [
   { value: 'health-check', label: 'A free Salesforce health check' },
-  { value: 'admin', label: 'A fractional Salesforce admin' },
-  { value: 'hire', label: 'Help hiring for a Salesforce role' },
+  { value: 'admin', label: 'A fractional operations or CRM admin' },
+  { value: 'hire', label: 'Help hiring for an operations or CRM role' },
   { value: 'candidate', label: 'I’m looking for a Salesforce job' },
 ]
 

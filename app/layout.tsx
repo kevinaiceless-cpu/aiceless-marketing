@@ -5,7 +5,7 @@ import SiteFooter from '@/components/SiteFooter'
 export const metadata = {
   title: 'Aiceless',
   description:
-    'Aiceless Alerts posts closures, sales and updates everywhere in one click. Aiceless also offers fractional Salesforce admin and Salesforce recruiting.',
+    'Aiceless Alerts posts closures, sales and updates everywhere in one click. Aiceless also offers operations and CRM support: a fractional admin and recruiting.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -74,7 +74,7 @@ function ServicesMenu({ pathname }: { pathname: string }) {
         onClick={() => setOpen((o) => !o)}
         className={`${navLink} gap-1 ${active ? 'text-aiceless-blue' : ''}`}
       >
-        Salesforce services
+        Services
         <svg
           aria-hidden="true"
           className={`size-4 transition-transform ${open ? 'rotate-180' : ''}`}
@@ -166,7 +166,7 @@ function MobileMenu({ pathname }: { pathname: string }) {
               </Link>
             </li>
             <li>
-              <p className="px-3 pt-3 pb-1 text-sm font-semibold text-gray-500">Salesforce services</p>
+              <p className="px-3 pt-3 pb-1 text-sm font-semibold text-gray-500">Services</p>
               <ul className="space-y-1">
                 {servicesLinks.map((l) => (
                   <li key={l.href}>

@@ -1,9 +1,9 @@
 import { ButtonLink, FinalCta, H2, KevinBio, OnBlueButton, PageHero, Section, TextLink } from '@/components/ui'
 
 export const metadata = {
-  title: 'Salesforce services | Fractional admin and Salesforce recruiting | Aiceless',
+  title: 'Operations and CRM services | Fractional admin and recruiting | Aiceless',
   description:
-    'A fractional Salesforce admin starting at $1,000 per month, or Salesforce recruiting with no fee unless you hire. From a Boston-based Salesforce Certified Advanced Administrator.',
+    'Operations and CRM help for growing teams: a fractional operations and CRM admin starting at $1,000 per month, or operations and CRM recruiting with no fee unless you hire. From a Salesforce Certified Advanced Administrator.',
 }
 
 function ServiceCard({
@@ -40,7 +40,7 @@ export default function ServicesHubPage() {
   return (
     <>
       <PageHero
-        line1="Salesforce help for growing teams."
+        line1="Operations and CRM help for growing teams."
         line2="Part-time admin or full-time hire."
         subhead="Some teams need an admin for a few hours a week. Others need to hire one. I do both."
       >
@@ -56,7 +56,7 @@ export default function ServicesHubPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
           <ServiceCard
             id="card-admin"
-            title="Fractional Salesforce admin"
+            title="Fractional operations and CRM admin"
             pain="No admin, or an admin with more work than hours?"
             offer="I run your Salesforce on a monthly plan: users, reports, flows and data cleanup."
             terms="Starting at $1,000 per month."
@@ -68,13 +68,13 @@ export default function ServicesHubPage() {
           </ServiceCard>
           <ServiceCard
             id="card-recruiting"
-            title="Salesforce recruiting"
+            title="Operations and CRM recruiting"
             pain="Hiring a Salesforce admin, developer or architect?"
             offer="I find and screen Salesforce candidates for your team, and I screen them as someone who does the work."
             terms="No fee unless you hire."
           >
             <ButtonLink href="/services/salesforce-recruiting" size="md">
-              See Salesforce recruiting
+              See recruiting
             </ButtonLink>
           </ServiceCard>
         </div>

@@ -60,7 +60,7 @@ export default function SiteFooter() {
           </Column>
 
           <Column
-            title="Salesforce services"
+            title="Services"
             links={[
               { href: '/services/salesforce-admin', label: 'Fractional admin' },
               { href: '/services/salesforce-recruiting', label: 'Recruiting' },
