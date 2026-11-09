@@ -58,7 +58,7 @@ export default function ServicesHubPage() {
             id="card-admin"
             title="Fractional operations and CRM admin"
             pain="No admin, or an admin with more work than hours?"
-            offer="I run your Salesforce on a monthly plan: users, reports, flows and data cleanup."
+            offer="I run your CRM on a monthly plan: users, reports, flows and data cleanup."
             terms="Starting at $1,000 per month."
           >
             <ButtonLink href="/services/salesforce-admin" size="md">
@@ -69,8 +69,8 @@ export default function ServicesHubPage() {
           <ServiceCard
             id="card-recruiting"
             title="Operations and CRM recruiting"
-            pain="Hiring a Salesforce admin, developer or architect?"
-            offer="I find and screen Salesforce candidates for your team, and I screen them as someone who does the work."
+            pain="Hiring a CRM admin, developer or architect?"
+            offer="I find and screen CRM candidates for your team, and I screen them as someone who does the work."
             terms="No fee unless you hire."
           >
             <ButtonLink href="/services/salesforce-recruiting" size="md">

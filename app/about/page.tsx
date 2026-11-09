@@ -22,7 +22,7 @@ export default function AboutPage() {
             <H2 id="story-heading">My story</H2>
             <p className="mt-6 text-xl text-gray-900 leading-relaxed text-pretty">
               I started Aiceless to support small business owners doing everything themselves—much like
-              Salesforce and RevOps professionals, who are often treated as cost centers rather than revenue
+              CRM and RevOps professionals, who are often treated as cost centers rather than revenue
               generators and get the short end of the stick when it comes to resources.
             </p>
           </div>
@@ -70,7 +70,7 @@ export default function AboutPage() {
         <div className="max-w-3xl">
           <H2 id="fits-heading">How the operations and CRM work fit together</H2>
           <p className="mt-6 text-lg text-gray-600 text-pretty">
-            The admin work and the recruiting make each other better. Because I’m in Salesforce orgs every week, I
+            The admin work and the recruiting make each other better. Because I’m in CRM systems every week, I
             know what a good admin or developer looks like, and I screen candidates on real work. And when a
             client needs a full-time person, I can keep their org running while I find one.
             <Placeholder note="CONFIRM: every week" />
